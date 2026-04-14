@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: green;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+.barra_pesquisa {
+    background: transparent;
+    border: 3px solid #E8DDCE;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    width: 500px;
+    max-height: 100%;
+    height: 40px;
+    color: #E8DDCE;
+    font-size: 17px;
+    box-shadow: 1px 1px 3px #E8DDCE;
+    transition: 0.4s;
+}
+
+.barra_pesquisa::placeholder {
+    color: #E8DDCE;
+    font-size: 17px;
+}
+
+.padrao_botao{
+    border: 3px solid #E8DDCE;
+    border-radius: 10px;
+    padding: 5px;
+    background: transparent;
+    color: #E8DDCE;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px #E8DDCE;
+    transition: 0.5s;
+}
+
+.padrao_botao:hover, .barra_pesquisa:hover {
+    scale: 1.03;
+    background: #E8DDCE;
+    color: green;
+    font-size: large;
+}
