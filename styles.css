@@ -30,7 +30,7 @@ form {
     height: 40px;
     color: #E8DDCE;
     font-size: 17px;
-    box-shadow: 1px 1px 3px #E8DDCE;
+    box-shadow: 1px 1px 2px #16161685;
     transition: 0.4s;
 }
 
@@ -46,7 +46,7 @@ form {
     background: transparent;
     color: #E8DDCE;
     cursor: pointer;
-    box-shadow: 1px 1px 3px #E8DDCE;
+    box-shadow: 1px 1px 2px #16161685;
     transition: 0.5s;
 }
 
@@ -54,5 +54,51 @@ form {
     scale: 1.03;
     background: #E8DDCE;
     color: green;
-    font-size: large;
+}
+
+body{
+    background-color: #E8DDCE;
+}
+.certaz {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 40px auto;
+    border-bottom: 9px solid #015201;
+    padding: 10px;
+}
+
+.certaz img {
+    position: absolute;
+    height: 150px;
+    left: 300px;
+}
+
+.textos_cartaz {
+    position: relative;
+    left: 110px;
+    top: -20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto_promocional {
+    color: #015201;
+    -webkit-text-stroke: 1px white;
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+.texto_cupom {
+    background: #015201;
+    width: 20%;
+    height: 22px;
+    text-align: center;
+    margin: auto 0;
+    color: #E8DDCE;
+    border-radius: 10px;
 }
